@@ -28,7 +28,7 @@ module Fog
         attribute :backups
         attribute :ipv6
         attribute :ssh_keys
-        attribure :user_data
+        attribute :user_data
 
         def public_ip_address
           ipv4_address
